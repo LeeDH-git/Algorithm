@@ -1,6 +1,6 @@
 package Algorithm;
 
-public class SlectionSort {
+public class SelectionSort {
     public static void main(String[] args) {
 
         int[] a = {1, 13, 7, 15, 29, 4, 36, 14, 40, 2, 34};
