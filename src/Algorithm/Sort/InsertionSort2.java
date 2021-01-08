@@ -1,6 +1,6 @@
 package Algorithm.Sort;
 
-public class InsertSort3 {
+public class InsertionSort2 {
     /* N개의 숫자가 입력되면 오름차순으로 정렬하여 출력하는 프로그램을 작성하세요 (삽입정렬)
      * 입력예제
      * 11 7 5 6 10 9
