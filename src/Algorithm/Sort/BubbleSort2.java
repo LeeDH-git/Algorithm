@@ -25,5 +25,21 @@ public class BubbleSort2 {
             System.out.println("정수를 입력하세요 : ");
             a[i] = Integer.parseInt(br.readLine());
         }
+
+        int b = 0;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a.length - i - 1; j++) {
+                if (a[j] > a[j + 1]) {
+                    if (a[j + 1] < 0)
+                        b = a[j + 1];
+                    a[j + 1] = a[j];
+                    a[j] = b;
+                }
+            }
+        }
+
+        for (int i : a) {
+            System.out.print(i + " ");
+        }
     }
 }
